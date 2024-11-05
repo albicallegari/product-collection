@@ -1,4 +1,12 @@
+Product-collection is a monorepo containing the client app in Next.js version 15 and an Apollo server that provides data via CRUD.
 
+Node >18.8 is used.
+
+The Home page of the site shows a list of products via SSR and for each of them it is possible to delete it using the appropriate button 
+or open the detail via the dynamic route product/[id].
+
+It is also possible to add a product to the list using the "+ Add new product" button on the home page, 
+which opens the product/new route and presents a form to fill in with the product parameters
 
 ## Getting Started from project root
 
