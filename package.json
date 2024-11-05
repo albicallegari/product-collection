@@ -1,0 +1,18 @@
+{
+  "name": "product-collection",
+  "version": "1.0.0",
+  "packageManager": "yarn@3.6.4",
+  "license": "ISC",
+  "author": "alberto.c",
+  "repository": "https://github.com/albicallegari/product-collection.git",
+  "scripts": {
+    "dev-client": "yarn workspace @product-collection/client run dev",
+    "build-client": "yarn workspace @product-collection/client run build",
+    "start-client": "yarn workspace @product-collection/client run start",
+    "start-server": "yarn workspace @product-collection/server run start"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
